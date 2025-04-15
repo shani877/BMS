@@ -1,0 +1,13 @@
+replicaCount: 2
+
+appLabel: bms
+
+container:
+  name: bms-container
+  image: shani877/bms:latest
+  port: 3000
+
+service:
+  type: LoadBalancer
+  port: 80
+
