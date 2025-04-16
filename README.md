@@ -17,16 +17,12 @@ Welcome to the **Book My Show App Deployment** project! This project demonstrate
 | **Security**        | ![OWASP](https://img.shields.io/badge/OWASP-000000?style=flat-square&logo=owasp&logoColor=white) ![Trivy](https://img.shields.io/badge/Trivy-00979D?style=flat-square&logo=trivy&logoColor=white)         |
 
 ---
-🛠️ Tool Installation
+## 🛠️ **Tool Installation**
 To set up your environment with all the necessary tools, follow these steps:
 
 # Clone the repository
 git clone https://github.com/shani877/Scripts.git
-
-# Navigate into the repo directory
-cd Scripts
-
-# Run the installation scripts
+cd Scripts # Navigate to the repository & excute the files 
 bash awscli.sh
 bash docker.sh
 bash eksctl.sh
